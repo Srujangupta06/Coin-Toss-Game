@@ -1,0 +1,78 @@
+* {
+  margin: 0px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.bg-container {
+  background-image: linear-gradient(to right, #f9d423, #e2a139);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.toss-coin-card-container {
+  background-color: #ffffff;
+  padding: 25px 65px 25px 65px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.toss-coin-card-container h1 {
+  color: #a35200;
+  font-size: 33px;
+  margin-bottom: 17px;
+}
+
+.outcome {
+  color: #334155;
+  font-weight: 600;
+  font-size: 20px;
+  margin-bottom: 19px;
+}
+.toss-coin-card-container img {
+  height: 220px;
+}
+button {
+  background-color: #f9d423;
+  border-width: 0px;
+  padding: 8px;
+  font-size: 15px;
+  color: #a35200;
+  cursor: pointer;
+  border-radius: 7px;
+  margin-top: 30px;
+}
+.toss-results-container {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  margin-top: 28px;
+}
+.toss-results-container p {
+  font-size: 16px;
+  color: #475569;
+  font-weight: 600;
+}
+@media screen and (max-width: 767px) {
+  .toss-coin-card-container {
+    width: 80%;
+  }
+  .outcome {
+    color: #334155;
+    font-weight: 600;
+    font-size: 23px;
+    margin-bottom: 19px;
+  }
+  .toss-results-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .toss-results-container p {
+    font-size: 16px;
+    color: #475569;
+    font-weight: 600;
+    margin-bottom: 15px;
+  }
+}
