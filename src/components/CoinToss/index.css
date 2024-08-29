@@ -55,13 +55,16 @@ button {
   font-weight: 600;
 }
 @media screen and (max-width: 767px) {
+  .toss-coin-card-container h1 {
+    font-size: 25px;
+  }
   .toss-coin-card-container {
     width: 80%;
   }
   .outcome {
     color: #334155;
     font-weight: 600;
-    font-size: 23px;
+    font-size: 18px;
     margin-bottom: 19px;
   }
   .toss-results-container {
